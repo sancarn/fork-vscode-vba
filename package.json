@@ -40,12 +40,6 @@
         "scopeName": "source.vba",
         "path": "./syntaxes/vba.json"
       }
-    ],
-    "snippets": [
-      {
-        "language": "vba",
-        "path": "./snippets/vba.json"
-      }
     ]
   }
 }
