@@ -7,6 +7,7 @@
     "comment1":"See here for unit tests:  https://regex101.com/r/dFOvNt/1",
     "increaseIndentPattern": "^(?i:Type\\s*?.*|Enum\\s*?.*|For\\s*?.*|While\\s*?.*|if.*?then\\s*?('.*)?|elseif\\s*.*?\\s*then\\s*?('.*)?|else\\s*?('.*)?|select\\s*case\\s*.*|Do\\s*While\\s*.*|(?:Public|Private|Friend)?\\s*?(?:Function|Sub)\\s*.*)$",
     "comment2":"See here for unit tests:  https://regex101.com/r/qmRFmL/1",
-    "decreaseIndentPattern": "^(?i:End (?:Type|Enum|If|Select|Function|Sub)|Loop|Else|Wend|next\s*?.*|elseif\s*.*\s*then)\s*?('.*)?$"
+    "decreaseIndentPattern": "^(?i:End (?:Type|Enum|If|Select|Function|Sub)|Loop|Else|Wend|next\\s*?.*|elseif\\s*.*\\s*then)\\s*?('.*)?$"
   }
 }
+
