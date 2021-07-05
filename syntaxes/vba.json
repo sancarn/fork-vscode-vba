@@ -97,7 +97,7 @@
     },
     {
       "match":
-        "(?i:\\s*\\b(Const|Dim|As|ReDim|Function|Sub|End|Enum|Type|Public|Private|Friend|Implements|Call|Set|Let|Get|New|Randomize|Option Explicit|On Error Resume Next|On Error GoTo|ByRef|ByVal|Public Function|Private Function|Preserve)\\b\\s*)",
+        "(?i:\\s*\\b(Const|Dim|As|ReDim|Function|Property|Sub|End|Enum|Type|Public|Private|Friend|Implements|Call|Set|Let|Get|New|Randomize|Option Explicit|On Error Resume Next|On Error GoTo|ByRef|ByVal|Public Function|Private Function|Preserve|Declare|Lib|Alias|Event)\\b\\s*)",
       "name": "storage.type.asp"
     },
     {
@@ -155,7 +155,7 @@
     },
     {
       "match":
-        "(?i:\\b(Lock|Unlock|SetAbort|SetComplete|BinaryRead|AddHeader|AppendToLog|BinaryWrite|Clear|End|Flush|Redirect|Write|CreateObject|HTMLEncode|MapPath|URLEncode|Abandon|Convert|Regex)\\b)",
+        "(?i:\\b(Lock|Unlock|SetAbort|SetComplete|BinaryRead|AddHeader|AppendToLog|BinaryWrite|Clear|End|Flush|Redirect|Write|CreateObject|HTMLEncode|MapPath|URLEncode|Abandon|Convert|Regex|RaiseEvent)\\b)",
       "name": "support.function.asp"
     },
     {
