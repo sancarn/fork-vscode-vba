@@ -1,7 +1,7 @@
 {
   "name": "vba",
-  "displayName": "VSCode VBA",
-  "description": "VBA language syntax highlighting support and code snippets for VSCode",
+  "displayName": "VBA",
+  "description": "VBA language tools including syntax highlighting, ",
   "version": "1.7.1",
   "icon": "images/logo.png",
   "publisher": "spences10",
@@ -10,7 +10,7 @@
   },
   "categories": [
     "Programming Languages",
-    "Snippets"
+    "VBA"
   ],
   "repository": {
     "type": "git",
@@ -31,9 +31,7 @@
         "extensions": [
           ".bas",
           ".cls",
-          ".frm",
-          ".sht",
-          ".wbk"
+          ".frm"
         ],
         "configuration": "./vba.configuration.json"
       }
